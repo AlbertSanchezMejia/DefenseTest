@@ -752,6 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyCount: 0
   imageNextLevel: {fileID: 1987253191}
+  sceneToAdd: 1
 --- !u!1 &168121957
 GameObject:
   m_ObjectHideFlags: 0

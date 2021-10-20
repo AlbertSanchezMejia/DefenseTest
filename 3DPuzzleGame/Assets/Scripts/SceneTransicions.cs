@@ -17,7 +17,7 @@ public class SceneTransicions : MonoBehaviour
 
     public void Back()
     {
-        SceneManager.LoadScene("MenuStart01");
+        SceneManager.LoadScene("MenuLevelSelec");
     }
 
 }

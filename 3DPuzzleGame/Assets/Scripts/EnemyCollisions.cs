@@ -17,7 +17,11 @@ public class EnemyCollisions : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             countTheEnemies.enemyCount--;
-            if (countTheEnemies.enemyCount <= 0) countTheEnemies.imageNextLevel.SetActive(true);
+            if (countTheEnemies.enemyCount <= 0)
+            {
+                countTheEnemies.imageNextLevel.SetActive(true);
+                countTheEnemies.AddNewLevel();
+            }
 
             Destroy(gameObject);
         }
