@@ -11,6 +11,7 @@ public class NodesLogic : MonoBehaviour
         if (ObjectToMove.objectToMove != null && thereObjectAbove == false)
         {
             ObjectToMove.objectToMove.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
+            ObjectToMove.markToMove.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
         }
     }
 
