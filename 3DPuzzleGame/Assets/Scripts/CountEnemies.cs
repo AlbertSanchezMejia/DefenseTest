@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CountEnemies : MonoBehaviour
 {
-    public int enemyCount = 0;
+    [HideInInspector] public int enemyCount = 0;
     public GameObject imageNextLevel;
 
 }

@@ -14,10 +14,13 @@ public class EnemyCollisions : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        countTheEnemies.enemyCount--;
-        if (countTheEnemies.enemyCount <= 0) countTheEnemies.imageNextLevel.SetActive(true);
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            countTheEnemies.enemyCount--;
+            if (countTheEnemies.enemyCount <= 0) countTheEnemies.imageNextLevel.SetActive(true);
 
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
 
     }
 

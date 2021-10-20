@@ -8,6 +8,7 @@ TagManager:
   - Muros
   - Node
   - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
