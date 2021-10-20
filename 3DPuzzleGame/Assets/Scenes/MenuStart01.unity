@@ -1791,7 +1791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 608.54944, y: -78.07199}
+  m_AnchoredPosition: {x: 571.94, y: -78.07199}
   m_SizeDelta: {x: 424.262, y: 156.144}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529312695
@@ -3609,7 +3609,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6346564502464697438, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
+    - {fileID: -1719606760308371035, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
 --- !u!4 &1212605552 stripped
 Transform:
@@ -4595,8 +4597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 608.54944, y: 270.07}
-  m_SizeDelta: {x: 702.3, y: 540.14}
+  m_AnchoredPosition: {x: 571.9388, y: 270.07}
+  m_SizeDelta: {x: 775.521, y: 540.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1627000092
 MonoBehaviour:
@@ -6196,8 +6198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00008773804, y: -0.000030517578}
-  m_SizeDelta: {x: 702.3, y: 540.14}
+  m_AnchoredPosition: {x: -0.00023842, y: -0.000030517578}
+  m_SizeDelta: {x: 775.52, y: 540.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088736882
 MonoBehaviour:
@@ -6232,7 +6234,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'TOWER
+  m_Text: 'Defense
 
     TEST'
 --- !u!222 &2088736883
@@ -6641,7 +6643,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3087384927885359808, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
-    - {fileID: 3087384927885359811, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
 --- !u!1001 &5329507381316529161
 PrefabInstance:

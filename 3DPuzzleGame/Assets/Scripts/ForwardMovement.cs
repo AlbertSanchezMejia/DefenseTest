@@ -6,16 +6,15 @@ public class ForwardMovement : MonoBehaviour
 {
     Rigidbody rigidBody;
     [SerializeField] int forwardSpeed;
-
-    void Movement(Transform objectTransform)
-    {
-        rigidBody.velocity = objectTransform.forward * forwardSpeed;
-    }
-
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
         Movement(transform);
+    }
+
+    void Movement(Transform objectTransform)
+    {
+        rigidBody.velocity = objectTransform.forward * forwardSpeed;
     }
 
     void OnTriggerEnter(Collider other)

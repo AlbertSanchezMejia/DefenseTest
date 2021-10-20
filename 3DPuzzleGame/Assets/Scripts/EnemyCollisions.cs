@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class EnemyCollisions : MonoBehaviour
 {
+    CountEnemies countTheEnemies;
+
     void Start()
     {
-        CountEnemies.enemyCount++;
+        countTheEnemies = FindObjectOfType<CountEnemies>();
+        countTheEnemies.enemyCount++;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        CountEnemies.enemyCount--;
+        countTheEnemies.enemyCount--;
+        if (countTheEnemies.enemyCount <= 0) countTheEnemies.imageNextLevel.SetActive(true);
+
         Destroy(gameObject);
+
     }
 
 }
