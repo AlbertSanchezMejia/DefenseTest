@@ -21,6 +21,7 @@ public class EnemyCollisions : MonoBehaviour
             {
                 countTheEnemies.imageNextLevel.SetActive(true);
                 countTheEnemies.AddNewLevel();
+                Time.timeScale = 0;
             }
 
             Destroy(gameObject);

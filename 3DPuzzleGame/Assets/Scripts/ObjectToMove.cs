@@ -9,5 +9,6 @@ public class ObjectToMove : MonoBehaviour
     void Start()
     {
         markToMove = GameObject.Find("Mark").transform;
+        Time.timeScale = 1;
     }
 }

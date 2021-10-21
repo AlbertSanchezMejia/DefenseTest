@@ -5,10 +5,14 @@ using UnityEngine;
 public class InstantiateObject : MonoBehaviour
 {
     [SerializeField] Rigidbody bulletPrefab;
-
+    bool thereAlreadyABullet = false;
     public void Shoot()
     {
-        Instantiate(bulletPrefab, transform.position, transform.rotation);
+        if (thereAlreadyABullet == false)
+        {
+            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            thereAlreadyABullet = true;
+        }
     }
 
 }
