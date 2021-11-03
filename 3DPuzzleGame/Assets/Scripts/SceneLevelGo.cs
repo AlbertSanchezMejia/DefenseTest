@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLevelGo : MonoBehaviour
 {
-    [SerializeField] string sceneToGo;
+    [SerializeField] int sceneToGo;
 
     public void GoToScene()
     {
