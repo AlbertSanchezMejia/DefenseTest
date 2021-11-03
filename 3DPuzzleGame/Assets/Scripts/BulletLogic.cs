@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForwardMovement : MonoBehaviour
+public class BulletLogic : MonoBehaviour
 {
     Rigidbody rigidBody;
     [SerializeField] int forwardSpeed;

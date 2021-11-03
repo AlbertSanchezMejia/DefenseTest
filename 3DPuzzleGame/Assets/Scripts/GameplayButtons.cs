@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransicions : MonoBehaviour
+public class GameplayButtons : MonoBehaviour
 {
     public void GoToNextScene()
     {

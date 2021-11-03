@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7802441589616953954}
   - component: {fileID: 2800431388920042592}
   - component: {fileID: 1747871625845112779}
+  - component: {fileID: 3397677317155636758}
   - component: {fileID: 7270369006334545727}
-  - component: {fileID: -6289292479618986337}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -111,6 +111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forwardSpeed: 8
+--- !u!114 &3397677317155636758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285604286047291291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7a3b1312fb9ac4d89f2de8df744394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &7270369006334545727
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,15 +139,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-6289292479618986337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5285604286047291291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5097e80216388a54396be48a1484fa3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

@@ -8,8 +8,9 @@ public class CountEnemies : MonoBehaviour
     public GameObject imageNextLevel;
     [SerializeField] int sceneToAdd;
 
-    public void AddNewLevel()
+    public void PassedTheLevel()
     {
+        imageNextLevel.SetActive(true);
         if (SelecLevelManager.levelsPlayables < sceneToAdd)
         {
             SelecLevelManager.levelsPlayables = sceneToAdd;
