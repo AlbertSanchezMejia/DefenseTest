@@ -9,6 +9,7 @@ public class ObjectToMove : MonoBehaviour
 
     void Start()
     {
+        objectToMove = null;
         markToMove = GameObject.Find("Mark").transform;
     }
 

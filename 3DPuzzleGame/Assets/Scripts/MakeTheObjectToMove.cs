@@ -7,6 +7,7 @@ public class MakeTheObjectToMove : MonoBehaviour
     void OnMouseDown()
     {
         ObjectToMove.objectToMove = transform;
+        ObjectToMove.markToMove.position = transform.position;
     }
 
 }
