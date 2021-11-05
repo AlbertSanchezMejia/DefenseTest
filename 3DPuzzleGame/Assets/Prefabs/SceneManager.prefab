@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6581951343130026538}
-  - component: {fileID: 6581951343130026541}
   - component: {fileID: 6581951343130026539}
   - component: {fileID: 6581951343130026540}
   - component: {fileID: -8389251990304408187}
+  - component: {fileID: -7786452592511257854}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -34,21 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6581951343130026541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6581951343130026542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b92a19e129ac650418196ce9f8c70a50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCount: 0
-  imageNextLevel: {fileID: 0}
-  sceneToAdd: 0
 --- !u!114 &6581951343130026539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,4 +70,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4a8b8171c0d5247a992515d5c4f07e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
+--- !u!114 &-7786452592511257854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6581951343130026542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7a3b1312fb9ac4d89f2de8df744394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAmount: 0
+  imageNextLevel: {fileID: 0}
+  sceneToAdd: 0

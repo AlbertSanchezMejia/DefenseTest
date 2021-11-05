@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class MakeTheObjectToMove : MonoBehaviour
 {
+    ObjectToMove moveThisObject;
+
+    void Start()
+    {
+        moveThisObject = FindObjectOfType<ObjectToMove>();
+    }
+
     void OnMouseDown()
     {
-        ObjectToMove.objectToMove = transform;
-        ObjectToMove.markToMove.position = transform.position;
+        moveThisObject.SetTheObjectsMove(transform);
     }
 
 }

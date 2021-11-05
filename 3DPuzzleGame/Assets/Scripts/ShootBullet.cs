@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShootBullet : MonoBehaviour
 {
     GameObject bulletShooter;
-    bool alreadyShoot = false;
 
     void Awake()
     {
@@ -15,11 +14,9 @@ public class ShootBullet : MonoBehaviour
 
     public void Shoot()
     {
-        if (alreadyShoot == false)
-        {
-            bulletShooter.SetActive(true);
-            alreadyShoot = true;
-        }
+        GameObject.FindGameObjectWithTag("ButtonShoot").SetActive(false);
+        FindObjectOfType<ObjectToMove>().havePressShootButton();
+        bulletShooter.SetActive(true);
     }
 
 }
