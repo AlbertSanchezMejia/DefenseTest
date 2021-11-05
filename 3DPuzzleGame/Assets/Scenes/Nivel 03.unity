@@ -858,7 +858,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
+      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (6)
@@ -2401,7 +2401,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
+      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (7)
@@ -2787,7 +2787,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
+      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (6)
@@ -3863,7 +3863,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
+      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (6)
@@ -4234,7 +4234,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
+      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (6)
@@ -5469,7 +5469,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-263988
+  m_Name: pb_Mesh-441716
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6097,7 +6097,7 @@ PrefabInstance:
     - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ebc21877c9598c440b5dab8f49ab8b5a, type: 2}
+      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (7)
@@ -6216,7 +6216,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-263584
+  m_Name: pb_Mesh-441312
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6711,6 +6711,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1742903522}
     m_Modifications:
+    - target: {fileID: 6346564502464697433, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4835641365439c41adb29371884e6d4, type: 2}
     - target: {fileID: 6346564502464697436, guid: a992f066a299bdb469d0c0214d0a6354, type: 3}
       propertyPath: m_Name
       value: Node (7)
@@ -6772,7 +6776,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-263940
+  m_Name: pb_Mesh-441668
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
