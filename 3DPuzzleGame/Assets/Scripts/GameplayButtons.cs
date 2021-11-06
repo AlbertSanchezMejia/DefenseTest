@@ -17,7 +17,7 @@ public class GameplayButtons : MonoBehaviour
 
     public void Back()
     {
-        SceneManager.LoadScene("MenuLevelSelec");
+        SceneManager.LoadScene(0);
     }
 
 }
