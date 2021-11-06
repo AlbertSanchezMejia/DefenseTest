@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handMakeFalse: {fileID: 1932034050}
-  handMakeTrue: {fileID: 1932034050}
+  handMakeTrue: {fileID: 0}
 --- !u!1001 &388374025
 PrefabInstance:
   m_ObjectHideFlags: 0

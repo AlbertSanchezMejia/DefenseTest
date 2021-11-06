@@ -14,7 +14,7 @@ public class TutorialHand : MonoBehaviour
 
     public void ChangeTutorialHand()
     {
-        handMakeTrue.SetActive(true);
+        if (handMakeTrue != null) { handMakeTrue.SetActive(true); }
         handMakeFalse.SetActive(false);
         Destroy(this);
     }
