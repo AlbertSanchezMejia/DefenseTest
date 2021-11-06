@@ -2,19 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletLogic : MonoBehaviour
+public class BulletMovement : MonoBehaviour
 {
     Rigidbody rigidBody;
     [SerializeField] int forwardSpeed;
-
-    VictoryManager vManager;
 
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
         Movement(transform);
-
-        vManager = FindObjectOfType<VictoryManager>();
     }
 
     void Movement(Transform objectTransform)
@@ -28,24 +24,6 @@ public class BulletLogic : MonoBehaviour
         {
             Movement(other.gameObject.transform);
         }
-
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            vManager.enemyAmount--;
-        }
-
-        if (other.gameObject.CompareTag("Muros"))
-        {
-            if (vManager.enemyAmount > 0) {
-                vManager.Lose();
-            }
-            else {
-                vManager.Win();
-                gameObject.SetActive(false);
-            }
-        }
-
-
     }
 
 }

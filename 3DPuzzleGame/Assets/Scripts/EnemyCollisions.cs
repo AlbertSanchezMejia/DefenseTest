@@ -6,10 +6,7 @@ public class EnemyCollisions : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bullet"))
-        {
-            gameObject.SetActive(false);
-        }
+        if (other.gameObject.CompareTag("Bullet")) gameObject.SetActive(false);
     }
 
 }

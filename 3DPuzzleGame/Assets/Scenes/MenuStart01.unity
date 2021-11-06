@@ -4454,7 +4454,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1996
+  m_Name: pb_Mesh-217510
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6169,6 +6169,7 @@ PrefabInstance:
     - {fileID: 7748117543264384054, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
     - {fileID: 3007978280524754793, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
     - {fileID: -2455488491185674165, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
+    - {fileID: 64300947153651983, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d106130788afc8f4e8ff56a8f61ecaeb, type: 3}
 --- !u!4 &1730378509 stripped
 Transform:
@@ -6786,7 +6787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1828809904
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7009,7 +7010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1880740261
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8216,20 +8217,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 346aeda93fd10b74c84a8d85ef3286bb, type: 3}
-    m_FontSize: 150
+    m_FontSize: 95
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Defense
+  m_Text: 'Destruye a
 
-    TEST'
+    todos los enemigos'
 --- !u!222 &2115278084
 CanvasRenderer:
   m_ObjectHideFlags: 0
