@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f642022e534e7cc4ca6fce3a8f9c0d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 2
+  sceneToGo: 1
 --- !u!114 &410056790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,7 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f642022e534e7cc4ca6fce3a8f9c0d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 5
+  sceneToGo: 4
 --- !u!114 &521563192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2534,7 +2534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f642022e534e7cc4ca6fce3a8f9c0d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 3
+  sceneToGo: 2
 --- !u!114 &608891676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3710,7 +3710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f642022e534e7cc4ca6fce3a8f9c0d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 4
+  sceneToGo: 3
 --- !u!114 &862722765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6786,7 +6786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1828809904
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7009,7 +7009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1880740261
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7334,7 +7334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f642022e534e7cc4ca6fce3a8f9c0d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 6
+  sceneToGo: 5
 --- !u!114 &1993488555
 MonoBehaviour:
   m_ObjectHideFlags: 0
