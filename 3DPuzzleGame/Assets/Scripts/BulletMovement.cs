@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class BulletMovement : MonoBehaviour
 {
-    Rigidbody rigidBody;
+    [SerializeField] Rigidbody rigidBody;
     [SerializeField] int forwardSpeed;
 
     void Start()
     {
-        rigidBody = GetComponent<Rigidbody>();
         Movement(transform);
     }
 
