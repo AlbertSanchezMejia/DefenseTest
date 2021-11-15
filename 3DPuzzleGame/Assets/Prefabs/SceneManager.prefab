@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4a8b8171c0d5247a992515d5c4f07e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ObjectShootButton: {fileID: 6581951343130026540}
 --- !u!114 &-7786452592511257854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,5 +84,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAmount: 0
-  imageNextLevel: {fileID: 0}
+  buttonNextLevel: {fileID: 0}
   sceneToAdd: 0

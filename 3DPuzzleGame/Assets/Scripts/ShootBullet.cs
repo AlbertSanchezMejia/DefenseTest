@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class ShootBullet : MonoBehaviour
 {
-    GameObject bulletShooter;
+    BulletMovement bulletShooter;
+    [SerializeField] ObjectToMove ObjectShootButton;
 
     void Awake()
     {
-        bulletShooter = GameObject.FindGameObjectWithTag("Bullet");
-        bulletShooter.SetActive(false);
+        bulletShooter = FindObjectOfType<BulletMovement>();
+        bulletShooter.enabled = false;
     }
 
     public void Shoot()
     {
         GameObject.FindGameObjectWithTag("ButtonShoot").SetActive(false);
-        FindObjectOfType<ObjectToMove>().havePressShootButton();
-        bulletShooter.SetActive(true);
+        ObjectShootButton.havePressShootButton();
+        bulletShooter.enabled = true;
     }
 
 }
