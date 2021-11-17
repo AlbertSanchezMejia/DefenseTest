@@ -21,7 +21,8 @@ public class BulletMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("DirectionChanger"))
         {
-            Movement(other.gameObject.transform);
+            transform.eulerAngles = other.transform.eulerAngles;
+            Movement(other.transform);
         }
     }
 
